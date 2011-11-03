@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/everypage
+# catalog-date 2008-02-19 19:31:19 +0100
+# catalog-license lppl
+# catalog-version 1.1
 Name:		texlive-everypage
 Version:	1.1
 Release:	1
@@ -47,6 +53,7 @@ layout, etc.
 #- source
 %doc %{_texmfdistdir}/source/latex/everypage/everypage.dtx
 %doc %{_texmfdistdir}/source/latex/everypage/everypage.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ layout, etc.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
