@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-everypage
 Version:	1.1
-Release:	9
+Release:	10
 Summary:	Provide hooks to be run on every page of a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/everypage
