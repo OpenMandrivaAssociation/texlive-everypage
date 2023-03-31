@@ -1,6 +1,6 @@
 Name:		texlive-everypage
 Version:	56694
-Release:	1
+Release:	2
 Summary:	Provide hooks to be run on every page of a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/everypage
