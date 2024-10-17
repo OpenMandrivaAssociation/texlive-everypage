@@ -3,7 +3,7 @@ Version:	56694
 Release:	2
 Summary:	Provide hooks to be run on every page of a document
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/everypage
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/everypage
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/everypage.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/everypage.doc.r%{version}.tar.xz
